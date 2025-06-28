@@ -16,8 +16,8 @@ using namespace std;
  @Complexity:
  - Time: 
    - Approach 1: O(n log n)
-   - Approach 2: O(n)
-   - Approach 3: O(n)
+   - Approach 2: O(2n) => O(n) [Two traversal ]
+   - Approach 3: O(n) [One Traversal]
  - Space: O(1) for all 
 */
 
