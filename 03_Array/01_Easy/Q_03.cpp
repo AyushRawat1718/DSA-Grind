@@ -3,7 +3,7 @@ using namespace std;
 
 //  Problem Statement: Given an array of size n, write a program to check if the given array is sorted in (ascending / Increasing / Non-decreasing) order or not. If the array is sorted then return True, Else return False.
 
-//  Link: 
+//  Link: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 
 /*
  @Approach: First of all we would check if the size of the array is less than 2 then the array is already sorted, else we would start with the first element and keep on checking if the next element is  smaller than the current or not, we will check this until second last element and whenever the next element is smaller we would return false, else return true at the end.
